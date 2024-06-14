@@ -76,18 +76,32 @@
   padding: 165px 50px 135px 50px;
 }
 
+.accent-span {
+  letter-spacing: 0.3em;
+  display: flex;
+  flex-direction: row;
+}
+
 .text-left {
   line-height: 1.15;
 }
 
 .text-center {
-  text-align: center;
+  justify-content: center;
   line-height: 1;
 }
 
 .text-right {
-  text-align: right;
+  justify-content: right;
   line-height: 1;
+}
+
+.extra-letter-spacing {
+  letter-spacing: 0.6em;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0em;
 }
 
 .cover__description {
